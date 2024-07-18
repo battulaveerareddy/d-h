@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get install -y apache2 &&\
     apt-get clean
      
-COPY  /var/www/HTML/index.html
+COPY  /var/www/html/index.html
 
 EXPOSE 80
 
